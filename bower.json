@@ -1,0 +1,11 @@
+{
+  "name": "todo-kraken",
+  "dependencies": {
+    "dustjs-linkedin": "2.3.6",
+    "dustjs-linkedin-helpers": "1.2.0",
+    "requirejs": "2.1.11",
+    "foundation": "5.4.2",
+    "font-awesome": "~4.2.0",
+    "animate.css": "~3.2.0"
+  }
+}

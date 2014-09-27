@@ -9,7 +9,8 @@ module.exports = function sass(grunt) {
 	return {
         watch: {
             options: {
-                outputStyle: 'nested'
+                outputStyle: 'nested',
+                includePaths: ['public/components/foundation/scss']
             },
             files: [{
                 expand: true,
@@ -21,7 +22,8 @@ module.exports = function sass(grunt) {
         },
         build: {
             options: {
-                outputStyle: 'compressed'
+                outputStyle: 'compressed',
+                includePaths: ['public/components/foundation/scss']
             },
             files: [{
                 expand: true,
