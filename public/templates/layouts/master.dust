@@ -15,6 +15,7 @@
     <!-- build:js js/vendor/modernizr.min.js -->
     <script src="/components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    {+head /}
   </head>
   <body>
 
