@@ -2,9 +2,15 @@
 
 {<title}Home{/title}
 
+{<head}
+<!-- build:css css/animate.min.css -->
+<link rel="stylesheet" href="/components/animate.css/animate.css">
+<!-- endbuild -->
+{/head}
+
 {<body}
 <div class="row">
-    <div class="small-12 columns text-center">
+    <div class="small-12 columns text-center animated fadeInUp">
         <h1>KrakenJS</h1>
         <h3 class="subheader">mixxorz's skeleton project</h3>
     </div>
