@@ -32,7 +32,8 @@
         "grunt-localizr": "^0.1.0",
         "grunt-copy-to": "0.0.10",
         "grunt-dustjs": "^1.2.0",
-        "grunt-contrib-clean": "^0.5.0"
+        "grunt-contrib-clean": "^0.5.0",
+        "jshint": "^2.5.6"
     },
     "devDependencies": {
         "grunt-concurrent": "^1.0.0",
