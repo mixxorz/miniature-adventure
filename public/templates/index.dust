@@ -1,6 +1,12 @@
 {>"layouts/master" /}
 
+{<title}Home{/title}
+
 {<body}
-    <h1>{@pre type="content" key="greeting"/}</h1>
-    <h2>{firstName} {lastName}</h2>
+<div class="row">
+    <div class="small-12 columns text-center">
+        <h1>KrakenJS</h1>
+        <h3 class="subheader">mixxorz's skeleton project</h3>
+    </div>
+</div>
 {/body}
