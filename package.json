@@ -25,6 +25,7 @@
         "node-sass": "^0.8.4",
         "requirejs": "^2.1.11",
         "grunt": "^0.4.1",
+        "grunt-cli": "^0.1.13",
         "grunt-contrib-jshint": "^0.10.0",
         "grunt-sass": "^0.12.1",
         "grunt-contrib-requirejs": "^0.4.3",
