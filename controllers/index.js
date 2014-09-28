@@ -3,6 +3,8 @@
 
 var IndexModel = require('../models/index');
 
+var items = [];
+
 
 module.exports = function(router) {
 
@@ -12,12 +14,21 @@ module.exports = function(router) {
     router.get('/', function(req, res) {
 
         var context = {
-            firstName: 'Amanda',
-            lastName: 'Lim'
+            items: items
         };
 
         res.render('index', context);
 
+    });
+
+    router.post('/', function(req, res) {
+
+        items.push({
+            done: 0,
+            text: req.param('item')
+        });
+
+        res.redirect('/');
     });
 
 };

@@ -10,9 +10,27 @@
 
 {<body}
 <div class="row">
-    <div class="small-12 columns text-center animated fadeInUp">
-        <h1>KrakenJS</h1>
-        <h3 class="subheader">mixxorz's skeleton project</h3>
+    <div class="small-12 medium-6 medium-centered columns text-center">
+        <h1>mixxor'z to-do list app</h1>
+        <h3 class="subheader">The best to-do list</h3>
+
+        <form action="/" method="POST">
+            <div class="row collapse">
+                <div class="small-10 columns">
+                    <input type="text" name="item" placeholder="Buy milk">
+                </div>
+                <div class="small-2 columns">
+                    <input type="submit" class="button postfix" value="Add">
+                    <input type="hidden" name="_csrf" value="{_csrf}">
+                </div>
+            </div>
+        </form>
+
+        <ul class="text-left">
+            {#items}
+                <li>{.done} - {.text}</li>
+            {/items}
+        </ul>
     </div>
 </div>
 {/body}
